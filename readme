@@ -1,0 +1,12 @@
+Introduction
+The goal of this notebook is to predict MWh grid loss in power grids using machine learning in Applied Data Science Course.
+
+Notes from TrønderEnergi:
+Day-ahead predictions: We need to predict the grid loss for the next day before 10 am the current day at an hourly resolution.
+
+Delayed measurements: We don't receive the measured values of load and loss immediately. We receive them 5 days after. 
+
+Incorrect data: There have been some measurements we received were incorrect, by a big margin. They have been marked in the dataset in the incorrect_data column. 
+It is recommended to remove those data points before you start analysing the data.
+
+Here, we built machine learning models for the prediction of grid1 loss.
